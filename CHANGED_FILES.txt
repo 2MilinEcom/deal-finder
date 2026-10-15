@@ -1,0 +1,75 @@
+Added: CHANGED_FILES.txt
+Changed: DEAL FINDER/app.py
+Changed: DEAL FINDER/deal_finder_api.py
+Added: DEAL FINDER/deal_judge.py
+Changed: DEAL FINDER/deals.db
+Added: DEAL FINDER/deals.db.pre-v3.bak
+Added: DEAL FINDER/offer_dates.py
+Added: DEAL FINDER/public_offers.py
+Changed: DEAL FINDER/requirements.txt
+Added: DEAL FINDER/savings_engine.py
+Added: DEAL FINDER/start_server.sh
+Changed: DEAL SERVICE/DEAL SERVICE.xcodeproj/project.pbxproj
+Added: DEAL SERVICE/DEAL SERVICE.xcodeproj/xcshareddata/xcschemes/DEAL SERVICE.xcscheme
+Changed: DEAL SERVICE/DEAL-SERVICE-Info.plist
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/ContentView.swift
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/DealFinderApp.swift
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Models/Receipt.swift
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Models/StoreLocation.swift
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/README.md
+Added: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Services/BackendClient.swift
+Added: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Services/BestDealsService.swift
+Added: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Services/DealRepository.swift
+Added: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Services/DigitalReceiptImporter.swift
+Added: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Services/ForYouService.swift
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Services/LocationManager.swift
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Services/NearbyDealSearchService.swift
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Services/NotificationManager.swift
+Added: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Services/ProactiveDealService.swift
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Services/PythonSyncService.swift
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Services/ReceiptOCRService.swift
+Added: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Services/ReceiptOfferService.swift
+Added: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Services/ReceiptParser.swift
+Added: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Services/ServerCredential.swift
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Services/StoreLocatorService.swift
+Added: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Services/StoreReceiptBatch.swift
+Added: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Services/TargetStoreHistoryImporter.swift
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/ViewModels/ArrivalViewModel.swift
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/ViewModels/ReceiptScannerViewModel.swift
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Views/Arrival/ArrivalView.swift
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Views/Deals/DealsView.swift
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Views/Home/HomeView.swift
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Views/Household/HouseholdView.swift
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Views/MainTabView.swift
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Views/NearbyDealsView.swift
+Added: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Views/ProactiveDealSettingsView.swift
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Views/Receipts/ReceiptScanView.swift
+Changed: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Views/Receipts/ReceiptsView.swift
+Added: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Views/Receipts/StoreAccountsView.swift
+Added: DEAL SERVICE/DealFinderIOS_ReceiptScanner_Fixed/Views/Shared/BackendSettingsView.swift
+Added: DEAL SERVICE/DealFinderTests/DealFinderTests.swift
+Added: DEAL SERVICE/DealFinderUITests/DealFinderUITests.swift
+Added: README.md
+Added: WORK_LOG.md
+Added: tests/run_ios_tests.sh
+Added: tests/test_backend.py
+Added: verification/RESULTS.md
+Added: verification/ai-backend-tests.txt
+Added: verification/ai-device-build.txt
+Added: verification/ai-native-tests.txt
+Added: verification/backend-tests.txt
+Added: verification/database-preservation.txt
+Added: verification/home-dark.png
+Added: verification/home-light.png
+Added: verification/integration-tests.txt
+Added: verification/simulator-build.txt
+Added: verification/simulator-tests.txt
+Added: verification/store-accounts-tests.txt
+Added: verification/store-batch-focused-tests.txt
+Added: verification/store-batch-native-tests.txt
+Added: verification/store-browser-privacy-test.txt
+Added: verification/store-offer-backend-tests.txt
+Added: verification/target-history-connector-tests.txt
+Added: verification/target-history-pagination-tests.txt
+Added: verification/target-import-report-tests.txt
+Added: verification/target-receipt-correction-tests.txt

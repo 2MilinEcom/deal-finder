@@ -1,0 +1,37 @@
+Config/
+  Info.plist.example
+DealFinderApp.swift
+FILE_TREE.txt
+Models/
+  Deal.swift
+  HouseholdMember.swift
+  Receipt.swift
+  ReceiptBenefit.swift
+  ReceiptItem.swift
+  StoreLocation.swift
+README.md
+Services/
+  LocationManager.swift
+  NotificationManager.swift
+  PythonSyncService.swift
+  ReceiptOCRService.swift
+  StoreLocatorService.swift
+ViewModels/
+  ArrivalViewModel.swift
+  ReceiptScannerViewModel.swift
+Views/
+  Arrival/
+    ArrivalView.swift
+  Deals/
+    DealsView.swift
+  Home/
+    HomeView.swift
+  Household/
+    HouseholdView.swift
+  MainTabView.swift
+  Receipts/
+    DocumentScannerView.swift
+    ReceiptScanView.swift
+    ReceiptsView.swift
+  Shared/
+    PermissionCard.swift

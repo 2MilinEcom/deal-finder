@@ -1,0 +1,13 @@
+Deal Finder is installed on your iPhone. The protected Mac server, Tavily search and AI deal selection are connected.
+
+Open Home and look for Best deals for you. AI compares fresh public offers and shows Potential steal, Good deal or Worth checking with a reason and the catch. Check deals now refreshes nearby discovery; Pick my best deals compares the current results.
+
+In Deal alerts and interests, add the things you want savings on. Enable deal notifications and choose Always location for automatic checks as you move around. iOS decides background timing, and the Mac must be awake and connected to Tailscale.
+
+Account-only offers and store participation still need confirmation. Delivery fee discounts do not remove every charge. Expired promotions are filtered out; uncertain evidence is not presented as guaranteed savings.
+
+Receipts and precise location stay out of AI requests. Private keys are stored only in the Mac runtime configuration and are not in this folder or archive.
+
+Target store-receipt import is available in Receipts > Store accounts. Other stores currently support individual receipt/page/file imports; bulk compatibility is not claimed.
+
+If the server stops, use Start Deal Finder.command. Do not uninstall the iPhone app to troubleshoot, because that can remove local receipts.
