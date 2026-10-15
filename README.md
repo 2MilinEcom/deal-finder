@@ -1,17 +1,27 @@
 # Deal Finder
 
-Native iOS deal discovery and receipt workflows backed by a Python API, caching, and offer verification.
+I built Deal Finder to make nearby offers easier to compare and keep track of. I worked on a native iOS interface and a Python service for discovery, saved offers, and receipt workflows.
 
-## Technology
+I included map based discovery, cached search results, offer dates and restrictions, saved deals, and optional arrival reminders. I keep possible coupon combinations separate from guaranteed savings because the merchant terms still need to be checked.
 
-SwiftUI, MapKit, FastAPI, SQLite.
+## Built with
 
-## Run locally
+I used SwiftUI and MapKit for iOS, with FastAPI and SQLite on the backend.
 
-Create a Python virtual environment and install `DEAL FINDER/requirements.txt`. Start the backend with `DEAL FINDER/start_server.sh`, then open `DEAL SERVICE/DEAL SERVICE.xcodeproj` in Xcode. Configure your own signing team and backend address in the app. The database is created locally; no saved receipts or personal offers are included.
+## Inside the project
 
-## Portfolio snapshot
+* `DEAL SERVICE/`: the iOS app and Xcode project.
+* `DEAL FINDER/`: the Python service and local dashboard.
+* `tests/`: backend and iOS test helpers.
+* `docs/history/`: implementation notes.
 
-This repository contains a source snapshot of a personal project. Personal records, credentials, browser sessions, local databases, and generated output are excluded. Use your own configuration and fictional data when evaluating it. Some integrations require external accounts or additional setup. This is a development project, with feature limitations documented in the source and guides.
+## Running it
 
-See [the project guide](PROJECT_GUIDE.md) for implementation details and earlier development notes. Verification claims in that guide describe the original working copy; they are not a fresh end-to-end test of this portfolio snapshot.
+I install `DEAL FINDER/requirements.txt` in a Python environment and use `DEAL FINDER/start_server.sh` to start the service. I open `DEAL SERVICE/DEAL SERVICE.xcodeproj` in Xcode, select my own signing team, and configure the app with my backend address.
+
+I keep receipt records and local databases out of this repository. Live discovery requires my own search configuration.
+
+## More detail
+
+* [Setup and feature details](PROJECT_GUIDE.md)
+* [Development notes](docs/history/README.md)
